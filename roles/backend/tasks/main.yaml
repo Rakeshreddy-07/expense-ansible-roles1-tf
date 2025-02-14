@@ -60,7 +60,7 @@
     name: all
     login_user: "{{ MYSQL_USER }}"
     login_password: "{{ MYSQL_PASSWORD }}"
-    login_host: mysql.devopsaws82s.online
+    login_host: mysql-dev.devopsaws82s.online
     target: /app/schema/backend.sql
 
 - name: deamon reload and restart service
